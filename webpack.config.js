@@ -39,4 +39,9 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'], // Automatically resolve these extensions
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './public/index.html', // Path to your HTML file
+      filename: 'index.html',         // Output file name
+    }),]
 };
