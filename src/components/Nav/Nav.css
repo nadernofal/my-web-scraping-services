@@ -1,0 +1,53 @@
+#nav {
+  padding: 20px;
+  background-color: #f7f7f7; /* Brighter background color */
+  color: #333; /* Darker text color */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Add align-items to center vertically */
+}
+
+#nav li {
+  margin-right: 30px; /* Increase spacing between items */
+}
+
+.raulwwq0-button-1 {
+  cursor: pointer;
+  background: transparent;
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Simplify padding */
+  font-weight: 500; /* Increase font weight */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333; /* Darker text color */
+  transition: 0.3s; /* Simplify hover effect */
+  transition: transform 0.3s; /* Add transition for smooth effect */
+}
+
+.raulwwq0-button-1:hover {
+  background-color: #eee; /* Lighter hover background color */
+  color: #333; /* Darker text color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: rotateY(10deg);  
+}
+
+.raulwwq0-button-1 span {
+  position: relative;
+  z-index: 100;
+}
+
+/* Add a subtle robot icon or stylized letter "R" to reflect your expertise */
+.raulwwq0-button-1::before {
+  font-family: 'Font Awesome 5 Free';
+  font-size: 18px;
+  margin-right: 10px;
+  color: #666; /* Darker icon color */
+}
