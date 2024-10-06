@@ -1,5 +1,5 @@
 import React from 'react';
-import 'C:/Users/mn320/Desktop/myblog/src/components/CmdWindow/CmdWinow.css'; 
+import './CmdWinow.css'; 
 import { useEffect, useState } from 'react';
 
 const CmdWindow= () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import PortfolioItem from 'C:/Users/mn320/Desktop/myblog/src/components/PortfolioItem/PortfolioItem';
+import PortfolioItem from '../PortfolioItem/PortfolioItem';
 import './Portfolio.css'
 
 const Portfolio = () => {
@@ -8,7 +8,7 @@ const Portfolio = () => {
       id: 1,
       title: 'Scraping Viator Web Site',
       description: ' Scrap the whole Viator listing for the Albania tours, the website includes JS bot detection, and my solution was to download the html content and do the scraping task offline after removing the included JS detectors functionality from the source code the whole process was automated using Selenium and Browsers extentions.',
-      image: 'C:/Users/mn320/Desktop/myblog/src/images/viator.png',
+      image: '../../images/viator.png',
       skills: ['Bot Development', 'Web Scraping Plugin', 'Web Scraping Framework'],
       details: (
         <div>

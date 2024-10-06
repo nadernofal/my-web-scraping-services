@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "my website",
   "main": "index.js",
-  "homepage": "https://github.com/nadernofal/my-web-scraping-services",
+  "homepage": "https://nadernofal.github.io/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start",

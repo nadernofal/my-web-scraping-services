@@ -1,5 +1,5 @@
 import React from 'react';
-import Review from 'C:/Users/mn320/Desktop/myblog/src/components/Review/Review';
+import Review from '../Review/Review';
 import './Reviews.css';
 import reviewsData from './reviews.json';
 
